@@ -1,4 +1,5 @@
 import React from 'react';
+import fotoExa from './fotoExa.jpeg';
 
 const ExaProfil = () => {
   return (
@@ -12,9 +13,9 @@ const ExaProfil = () => {
             
             <div className="w-48 h-48 bg-white rounded-full mb-6 border-8 border-white flex items-center justify-center shadow-lg overflow-hidden">
               <img 
-                src="https://via.placeholder.com/200" // <-- Ganti link ini dengan link foto aslimu
-                alt="Foto Profil Alvardi Exa"
-                className="w-full h-full object-cover"
+                src={fotoExa}
+                alt="Foto Profil Exa"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             
