@@ -5,23 +5,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <Routes> 
-        <Route path="/abdielprofil" element={<AbdielProfil />} />
-        <Route path="/" element={
-          <div className="App">
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <p>
-                Edit <code>src/App.js</code> and save to reload.
-              </p>
-            </header>
-          </div>
-        } />
+    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center">
+      <h1 className="text-4xl font-bold mb-4">
+        Project Kelompok 10 🚀
+      </h1>
 
-        <Route path="/abdiel-profil" element={<AbdielProfil />} />
-      </Routes>
-    </Router>
+      <p className="text-lg text-gray-300 text-center max-w-md">
+        Ini adalah aplikasi React sederhana menggunakan Tailwind CSS
+      </p>
+    </div>
   );
 }
 
