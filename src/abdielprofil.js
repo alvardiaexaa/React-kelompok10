@@ -1,5 +1,3 @@
-import React from 'react';
-
 function AbdielProfil() {
   return (
     <div className="min-h-screen bg-gray-900 flex items-center justify-center text-white">
@@ -20,7 +18,7 @@ function AbdielProfil() {
           Mahasiswa IT | Frontend Developer
         </p>
 
-        {/* Biodata */}
+        
         <div className="mt-6 space-y-2 text-sm">
           <p><span className="font-semibold text-indigo-300">Nama:</span> Abdiel Rayman Carlitos</p>
           <p><span className="font-semibold text-indigo-300">Umur:</span> 18 Tahun</p>
@@ -30,14 +28,14 @@ function AbdielProfil() {
           <p><span className="font-semibold text-indigo-300">Domisili:</span> Jl. Kosmea No.25Jatimulyo, Kec. Lowokwaru, Kota Malang, Jawa Timur 65141</p>
         </div>
 
-        {/* About */}
+        
         <div className="mt-6 text-sm text-gray-200 leading-relaxed">
           <p>
             Saya Abdiel Rayman Carlitos, seorang mahasiswa di Universitas Brawijaya yang memiliki minat besar di bidang teknologi, khususnya dalam pengembangan frontend. Saya tertarik untuk menciptakan tampilan website yang modern, responsif, dan nyaman digunakan oleh pengguna. Selain dunia coding, saya juga memiliki hobi bermain game, mendengarkan musik, serta melakukan modding game untuk mengeksplorasi kreativitas saya lebih jauh. Ketertarikan saya juga meluas ke bidang astronomi, teknologi masa depan, dan kecerdasan buatan (AI), yang membuat saya selalu ingin belajar hal-hal baru. Saya percaya bahwa dengan terus mengembangkan kemampuan dan mengikuti perkembangan teknologi, saya dapat menjadi seorang developer yang kompeten dan inovatif di masa depan.
           </p>
         </div>
 
-        {/* Button */}
+        
         <div className="mt-6 flex justify-center">
           <a
             href="/"
