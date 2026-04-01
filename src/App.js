@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ExaProfil from './ExaProfil';
-import AbdielProfil from './abdielprofil'
+import AbdielProfil from './AbdielProfil'
 import HafizhProfil from './hafizhprofil';
 
 function App() {
